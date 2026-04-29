@@ -1,0 +1,92 @@
+Crie um aplicativo completo em Python usando Kivy para um negócio de estética automotiva chamado "Detailer Lucas Moraes".
+
+REQUISITOS GERAIS:
+- Código em um único arquivo main.py
+- Interface moderna, com design premium (fundo preto, detalhes em vermelho)
+- Layout organizado, centralizado e responsivo
+- Usar ScreenManager para múltiplas telas
+- Incluir comentários no código
+
+-----------------------------------
+
+1) TELA DE LOGIN (ADMIN)
+- Usuário: admin
+- Senha: 1234
+- Campo de usuário e senha
+- Botão "Entrar"
+- Mensagem de erro se login inválido
+
+-----------------------------------
+
+2) TELA PRINCIPAL (MENU)
+- Logo no topo (arquivo: logo.png)
+- Nome: DETAILER LUCAS MORAES
+- Frase abaixo:
+  "Excelência em cuidado automotivo: acabamento padrão concessionária, polimento e vitrificação com agendamento exclusivo."
+
+- Botões:
+  - "Abrir Agenda"
+  - "Falar no WhatsApp"
+  - "Ver Instagram"
+
+- WhatsApp abre link:
+  https://wa.me/5591991984345
+
+- Instagram abre:
+  https://instagram.com/detailerlucasmoraes
+
+-----------------------------------
+
+3) TELA DE AGENDAMENTO
+- Título: "Agenda de Serviços"
+- Lista de horários:
+  08:00, 09:00, 10:00, 11:00, 13:00, 14:00, 15:00, 16:00
+
+- Cada horário deve:
+  - Começar como "Disponível"
+  - Ao clicar, abrir um pequeno formulário com:
+      Nome do cliente
+      Tipo de serviço (polimento, vitrificação, lavagem, etc.)
+
+- Após confirmar:
+  - Marcar como "Reservado"
+  - Salvar dados em memória
+
+-----------------------------------
+
+4) ENVIO PARA WHATSAPP
+Após confirmar o agendamento:
+- Abrir automaticamente o WhatsApp com mensagem pronta:
+
+"Olá, novo agendamento:
+Nome: {nome}
+Serviço: {serviço}
+Horário: {horário}"
+
+-----------------------------------
+
+5) ANIMAÇÃO DE ENTRADA
+- Tela inicial com logo (logo.png)
+- Fade in suave + leve movimento
+- Depois entra no login automaticamente
+
+-----------------------------------
+
+6) BOTÃO "SAIR"
+- Em todas telas internas, voltar para login
+
+-----------------------------------
+
+7) VISUAL
+- Fundo preto
+- Texto branco
+- Destaques em vermelho
+- Botões bonitos e grandes
+- Aparência profissional estilo app premium
+
+-----------------------------------
+
+OBJETIVO:
+Criar um aplicativo funcional de agendamento para estética automotiva, com login de administrador, interação com cliente e envio automático para WhatsApp.
+
+Não explique nada, apenas gere o código completo funcional.

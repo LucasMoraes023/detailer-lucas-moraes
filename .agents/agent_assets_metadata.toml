@@ -1,0 +1,32 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "FaOz5AOVsmftmIsRw53D6"
+uri = "file://artifacts/detailer-app/src/assets/logo.png"
+type = "image"
+title = "Detailer Lucas Moraes Logo"
+
+[[generated]]
+id = "NRDHFzBgvlzrlFMIJRj5w"
+uri = "file://artifacts/detailer-app/src/assets/work-1.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "eWhgDcE_Ucw87_CofrIuP"
+uri = "file://artifacts/detailer-app/src/assets/work-2.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "eob2gRGzG6TXPukY2Z8JF"
+uri = "file://artifacts/detailer-app/src/assets/work-3.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "1I_VYh-tNU3q7IvWzgxzX"
+uri = "file://artifacts/detailer-app/src/assets/work-4.png"
+type = "image"
+title = "generated_image"
